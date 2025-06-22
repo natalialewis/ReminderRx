@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import img1 from '../assets/pill-1.PNG';
 import img2 from '../assets/capsule-2.PNG';
 import img3 from '../assets/pill-3.png';
@@ -5,6 +6,16 @@ import img4 from '../assets/capsule-4.png';
 import './PillBackground.css';
 
 function PillBackground() {
+  const [animationPhase, setAnimationPhase] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setAnimationPhase(prev => (prev + 1) % 2);
+    }, 2000); // Change animation every 2 seconds
+
+    return () => clearInterval(interval);
+  }, []);
+
   // Pill pattern sequence
   const fullPattern = [img1, img2, img3, img4];
 
