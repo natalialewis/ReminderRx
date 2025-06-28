@@ -16,6 +16,9 @@
   border-style: solid;
   border-radius: 60px;
   height: 65%;
+  min-height: 500px;
+  max-width: 700px;;
+  max-height: 750px;
   width: 75%;
 }
 
