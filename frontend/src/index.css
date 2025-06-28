@@ -15,7 +15,19 @@ body {
   width: 100%;
   --button-color: rgb(249, 147, 226, 0.6);
   --box-shadow: rgba(0, 0, 0, 0.1);
-  --dark-gray: rgb(88, 83, 83);
-  --light-gray: rgb(240, 240, 240);
+  --dark-gray: rgb(128, 125, 125);
+  --light-gray: rgb(219, 216, 216);
   --purple: rgb(205, 117, 244, 0.6);
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
 }
