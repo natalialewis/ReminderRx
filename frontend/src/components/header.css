@@ -72,7 +72,7 @@
 }
 
 /* Desktop sizing */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1050px) {
     #app-title {
         font-size: 1.8rem;
     }
