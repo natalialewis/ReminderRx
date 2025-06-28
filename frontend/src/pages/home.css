@@ -1,0 +1,28 @@
+#page-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  background-color: #ffffff;
+  border-color: #000000;
+  border-style: solid;
+  border-radius: 60px;
+  height: 65%;
+  width: 75%;
+}
+
+#medications-row {
+    height: 70%;
+    width: 85%;
+    border: 1px solid;
+    border-color: var(--light-gray);
+    border-radius: 40px;
+}

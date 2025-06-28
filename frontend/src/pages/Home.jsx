@@ -1,9 +1,19 @@
+import { Link } from 'react-router-dom';
+import './home.css';
+import Header from '../components/Header.jsx';
+import BottomButton from '../components/BottomButton.jsx';
 
 function Home() {
+
   return (
-    <div>
-        <h1>Welcome to the Home Page</h1>
-        <p>This is the main landing page of the application.</p>
+    <div id="page-container">
+      <div id="main-container">
+        <Header />
+        <div id="medications-row">
+
+        </div>
+        <BottomButton />
+      </div>
     </div>
   );
 }
