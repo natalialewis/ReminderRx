@@ -13,4 +13,9 @@ body {
 #root {
   height: 100%;
   width: 100%;
+  --button-color: rgb(249, 147, 226, 0.6);
+  --box-shadow: rgba(0, 0, 0, 0.1);
+  --dark-gray: rgb(88, 83, 83);
+  --light-gray: rgb(240, 240, 240);
+  --purple: rgb(205, 117, 244, 0.6);
 }
