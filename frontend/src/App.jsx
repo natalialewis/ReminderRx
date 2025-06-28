@@ -5,7 +5,7 @@ import PillBackground from "./components/PillBackground";
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/ReminderRx">
       <PillBackground />
       <Routes>
         <Route path="/" element={<Home />} />
