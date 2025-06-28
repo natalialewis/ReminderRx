@@ -23,7 +23,7 @@ function PillBackground() {
   const getPillSize = () => {
     const screenWidth = window.innerWidth;
     if (screenWidth < 768) return '19px'; // Mobile
-    if (screenWidth < 1024) return '30px'; // Tablet
+    if (screenWidth < 1150) return '30px'; // Tablet
     return '40px'; // Desktop
   };
 
