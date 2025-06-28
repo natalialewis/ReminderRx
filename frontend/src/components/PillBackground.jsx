@@ -22,7 +22,7 @@ function PillBackground() {
   // Determines the size of each pill image based on responsive breakpoints
   const getPillSize = () => {
     const screenWidth = window.innerWidth;
-    if (screenWidth < 768) return '19px'; // Mobile
+    if (screenWidth < 768) return '17px'; // Mobile
     if (screenWidth < 1150) return '30px'; // Tablet
     return '40px'; // Desktop
   };
