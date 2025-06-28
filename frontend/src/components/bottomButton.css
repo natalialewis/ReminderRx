@@ -1,0 +1,21 @@
+#manage-button-row {
+    height: 15%;
+    width: 85%;
+    padding: 0px, 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#manage-button {
+    background-color: var(--button-color);
+    color: #000000;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 2px 4px var(--box-shadow);
+    width: 90%;
+    text-align: center;
+}
