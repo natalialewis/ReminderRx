@@ -26,7 +26,7 @@
 }
 
 #login-button {
-    background-color: var(--button-color);
+    background-color: var(--pink);
     color: #000000;
     border: none;
     border-radius: 30px;
@@ -34,6 +34,15 @@
     cursor: pointer;
     text-decoration: none;
     box-shadow: 0 2px 4px var(--box-shadow);
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+#login-button:hover {
+    background-color: var(--dark-pink);
+}
+
+#login-button:active {
+    transform: scale(0.92);
 }
 
 #question-button {
@@ -48,6 +57,15 @@
     height: 20px;
     box-shadow: 0 2px 4px var(--box-shadow);
     cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+#question-button:hover {
+    background-color: var(--dark-white);
+}
+
+#question-button:active {
+    transform: scale(0.92);
 }
 
 /* Tablet sizing */

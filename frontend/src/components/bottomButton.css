@@ -8,7 +8,7 @@
 }
 
 #manage-button {
-    background-color: var(--button-color);
+    background-color: var(--pink);
     color: #000000;
     border: none;
     border-radius: 30px;
@@ -18,6 +18,15 @@
     box-shadow: 0 2px 4px var(--box-shadow);
     width: 100%;
     text-align: center;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+#manage-button:hover {
+    background-color: var(--dark-pink);
+}
+
+#manage-button:active {
+    transform: scale(0.92);
 }
 
 @media screen and (min-width: 768px) {
