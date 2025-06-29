@@ -16,6 +16,12 @@
     cursor: pointer;
     text-decoration: none;
     box-shadow: 0 2px 4px var(--box-shadow);
-    width: 90%;
+    width: 100%;
     text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    #manage-button {
+        width: 60%;
+    }
 }
