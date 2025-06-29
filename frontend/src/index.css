@@ -15,10 +15,12 @@ body {
 #root {
   height: 100%;
   width: 100%;
-  --button-color: rgb(249, 147, 226, 0.6);
+  --pink: rgb(249, 147, 226, 0.6);
+  --dark-pink: rgba(243, 113, 213, 0.6);
   --box-shadow: rgba(0, 0, 0, 0.1);
   --dark-gray: rgb(128, 125, 125);
   --light-gray: rgb(219, 216, 216);
+  --dark-white: rgb(243, 237, 237);
   --purple: rgb(205, 117, 244, 0.6);
 }
 
