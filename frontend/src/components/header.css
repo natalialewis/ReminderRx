@@ -22,6 +22,7 @@
     justify-content: end;
     gap: 5px;
     width: 45%;
+    height: 100%;
 }
 
 #login-button {
